@@ -1,0 +1,28 @@
+body{
+    background: grey;
+}
+.move {
+  position: absolute;
+  padding: 10px 20px;
+  transition: left 0.15s ease, top 0.15s ease;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Horizontal */
+    align-items: center;     /* Vertical */
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.button-container{
+    display: flex;
+    justify-content: center; /* Horizontal */
+    align-items: center;     /* Vertical */
+    gap: 30px;
+}
